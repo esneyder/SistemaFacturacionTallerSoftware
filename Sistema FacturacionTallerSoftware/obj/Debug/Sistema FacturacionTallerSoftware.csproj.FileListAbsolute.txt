@@ -1,0 +1,29 @@
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\Sistema FacturacionTallerSoftware.exe.config
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\Sistema FacturacionTallerSoftware.exe
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\Sistema FacturacionTallerSoftware.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema FacturacionTallerSoftware.csprojResolveAssemblyReference.cache
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.frmLoguin.resources
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Properties.Resources.resources
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema FacturacionTallerSoftware.csproj.GenerateResource.Cache
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema FacturacionTallerSoftware.exe
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema FacturacionTallerSoftware.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.frmScreen.resources
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.frmPrincipal.resources
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LogicaNegocio.dll
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibConexionBD.dll
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibParametros.dll
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LogicaNegocio.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibConexionBD.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibParametros.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmUsuarios.resources
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibLlenarGrids.pdb
+c:\users\edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmListadoUsuarios.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmClientes.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmProductos.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibLlenarCombos.dll
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\bin\Debug\LibLlenarCombos.pdb
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Mantenimiento.frmIva.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Mantenimiento.frmDepartamento.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmFactura.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmReporteFacturas.resources
+C:\Users\Edwin\documents\visual studio 2013\Projects\Sistema FacturacionTallerSoftware\Sistema FacturacionTallerSoftware\obj\Debug\Sistema_FacturacionTallerSoftware.Formularios.frmFacturaTemporal.resources
