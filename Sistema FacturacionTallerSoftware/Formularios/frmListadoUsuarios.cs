@@ -1,12 +1,5 @@
 ﻿using LibLlenarGrids;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Sistema_FacturacionTallerSoftware.Formularios
@@ -28,7 +21,7 @@ namespace Sistema_FacturacionTallerSoftware.Formularios
 
         private void txtUsuario_TextChanged(object sender, EventArgs e)
         {
-            llenarGrid.SQL = "SELECT * FROM Usuario WHERE LIKE '"+txtUsuario.Text+"%'";
+            llenarGrid.SQL = "SELECT * FROM Usuario WHERE Usuario LIKE '" + txtUsuario.Text+"%'";
             llenarGrid.LlenarGridWindows(dgvUsuarios);
         }
     }

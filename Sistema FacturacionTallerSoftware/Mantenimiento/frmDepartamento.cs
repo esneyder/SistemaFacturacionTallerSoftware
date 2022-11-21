@@ -1,15 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using LibLlenarGrids;
 using LogicaNegocio.ClasesMantenimiento;
-
 
 namespace Sistema_FacturacionTallerSoftware.Mantenimiento
 {
@@ -25,15 +17,27 @@ namespace Sistema_FacturacionTallerSoftware.Mantenimiento
         {
             if (txtIdDepartamento.Text == "")
             {
+                this.btnModificar.Visible = false;
+                this.btnEliminar.Visible = false;
                 MessageBox.Show("Debe ingresar un id departamento..!");
                 txtIdDepartamento.Focus();
                 return;
             }
             Departamento dto = DatosDepartamento.ConsultarDepartamento(Convert.ToInt32(txtIdDepartamento.Text));
+
+            if (dto == null)
+            {
+                this.btnModificar.Visible = false;
+                this.btnEliminar.Visible = false;
+                return;
+            }
+
             txtIdDepartamento.Text = dto.IDDepartamento.ToString();
             txtDescripcion.Text = dto.Descripcion.ToString();
             MessageBox.Show(DatosDepartamento.Mensaje);
 
+            btnModificar.Visible = true;
+            btnEliminar.Visible = true;
         }
 
         private void frmDepartamento_Load(object sender, EventArgs e)
@@ -41,6 +45,8 @@ namespace Sistema_FacturacionTallerSoftware.Mantenimiento
 
             llenarGrid.SQL = "SELECT * FROM Departamento";
             llenarGrid.LlenarGridWindows(dgDepartamento);
+            btnModificar.Visible = false;
+            btnEliminar.Visible = false;
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -68,12 +74,14 @@ namespace Sistema_FacturacionTallerSoftware.Mantenimiento
                 return;
             }
             Departamento dto = new Departamento();
+            dto.IDDepartamento = Convert.ToInt32(txtIdDepartamento.Text);
             dto.Descripcion = txtDescripcion.Text;
             DatosDepartamento.ActuliazarDepartamento(dto);
             MessageBox.Show(DatosDepartamento.Mensaje);
             llenarGrid.LlenarGridWindows(dgDepartamento);
 
-
+            btnModificar.Visible = false;
+            btnEliminar.Visible = false;
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -84,8 +92,8 @@ namespace Sistema_FacturacionTallerSoftware.Mantenimiento
                 txtIdDepartamento.Focus();
                 return;
             }
-            DialogResult dr = MessageBox.Show("Decea eliminar el registro","Confirmación",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-            if (dr==DialogResult.No)
+            DialogResult dr = MessageBox.Show("Decea eliminar el registro", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.No)
             {
                 txtIdDepartamento.Focus();
                 return;
@@ -94,6 +102,8 @@ namespace Sistema_FacturacionTallerSoftware.Mantenimiento
             MessageBox.Show(DatosDepartamento.Mensaje);
             llenarGrid.LlenarGridWindows(dgDepartamento);
             txtIdDepartamento.Focus();
+            btnModificar.Visible = false;
+            btnEliminar.Visible = false;
         }
     }
 }

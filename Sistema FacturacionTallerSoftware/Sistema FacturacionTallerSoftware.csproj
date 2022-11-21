@@ -196,7 +196,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Parametros.xml" />
+    <Content Include="Parametros.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\i_porcentaje_iva.png" />
     <None Include="Resources\1396332242_companies.png" />
     <None Include="Resources\1396332186_users-grey.png" />

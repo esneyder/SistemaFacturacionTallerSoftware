@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using Sistema_FacturacionTallerSoftware.Formularios;
@@ -32,12 +25,12 @@ namespace Sistema_FacturacionTallerSoftware
         }
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            if (usuarioLogueado.perfil !=1)
+            if (usuarioLogueado.perfil != 1)
             {
                 listarUsuariosToolStripMenuItem.Enabled = false;
                 departamentoToolStripMenuItem.Enabled = false;
             }
-             
+
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -73,7 +66,7 @@ namespace Sistema_FacturacionTallerSoftware
             fp.UsuarioLogueado = this.usuarioLogueado;
             fp.MdiParent = this;
             fp.Show();
-           
+
         }
 
         private void ivaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -84,7 +77,7 @@ namespace Sistema_FacturacionTallerSoftware
         private void ivaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmIva fr = new frmIva();
-           
+
             fr.MdiParent = this;
             fr.Show();
         }
@@ -112,7 +105,7 @@ namespace Sistema_FacturacionTallerSoftware
 
         private void departamentoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
+
         }
 
         private void facturaTemporalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,6 +113,12 @@ namespace Sistema_FacturacionTallerSoftware
             frmFacturaTemporal ftmp = new frmFacturaTemporal();
             ftmp.MdiParent = this;
             ftmp.Show();
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            Application.Exit();
         }
     }
 }
